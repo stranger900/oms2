@@ -6,7 +6,7 @@
 	<artifactId>OMS</artifactId>
 	<name>OMS2</name>
 	<packaging>war</packaging>
-	<version>1.0.1</version>
+	<version>2.0.0</version>
 	<properties>
 	    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java-version>1.6</java-version>
@@ -255,8 +255,6 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
-
-
 	</repositories>
 	
 	<build>
@@ -394,27 +392,7 @@
         </execution>
     </executions>
 </plugin>
-		
-<!-- apetrysh 
-
-   <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>7a397e483291-releases</name>
-        <url>http://10.26.1.1:8081/artifactory/libs-release-local</url>
-    </repository>
-</distributionManagement>
-
-<distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>7a397e483291-snapshots</name>
-        <url>http://10.26.1.1:8081/artifactory/libs-snapshot-local</url>
-    </snapshotRepository>
-</distributionManagement>
-
-
- apetrysh -->
+			
 	
 						
 			<plugin>
